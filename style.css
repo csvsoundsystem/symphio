@@ -1,7 +1,11 @@
 html, body { margin: 0; }
-body { background-color: white; font-size: 16px; color: #222; font: Arial, sans-serif; }
+body { background-color: white; font-size: 16px; color: #222; font-family: Arial, sans-serif; }
 #wordmark { margin-top: 6em; }
 article, #wordmark { width: 40%; margin-left: 30%; margin-right: 30%; }
 article { margin-top: 2em;  margin-bottom: 4em; }
 a, a:visited, a:active { text-decoration: inherit; color: #64BC46; }
 a:hover { text-decoration: underline; color: #64BC46; }
+.comrade { float: left; width: 21%; margin-left: 6%; margin-right: 6%; }
+.comrade img { width: 100%; }
+.comrade .name { font-weight: bold; }
+.comrade .name, .comrade .title { display: block; }
